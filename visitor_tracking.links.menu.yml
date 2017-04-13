@@ -1,0 +1,5 @@
+entity.visitor_tracker.collection:
+  title: 'Visitor trackers'
+  route_name: entity.visitor_tracker.collection
+  parent: user.admin_index
+  description: 'Manage visitor trackers.'

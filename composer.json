@@ -1,0 +1,8 @@
+{
+  "name": "drupal/visitor_tracking",
+  "type": "drupal-module",
+  "description": "Visitor Tracking collects and injects visitor tracking data into your site.",
+  "homepage": "https://www.drupal.org/project/visitor_tracking",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev"
+}

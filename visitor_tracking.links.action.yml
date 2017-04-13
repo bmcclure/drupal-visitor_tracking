@@ -1,0 +1,5 @@
+entity.visitor_tracker.add_form:
+  route_name: entity.visitor_tracker.add_form
+  title: 'Add visitor tracker'
+  appears_on:
+    - entity.visitor_tracker.collection

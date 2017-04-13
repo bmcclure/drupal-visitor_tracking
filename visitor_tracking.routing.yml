@@ -1,0 +1,79 @@
+entity.visitor_tracker.collection:
+  path: '/admin/config/people/visitor-trackers'
+  defaults:
+    _entity_list: 'visitor_tracker'
+    _title: 'Visitor trackers'
+  requirements:
+    _permission: 'administer visitor tracking'
+
+entity.visitor_tracker.add_form:
+  path: '/admin/config/people/visitor-trackers/add'
+  defaults:
+    _entity_form: 'visitor_tracker.add'
+    _title: 'Add visitor tracker'
+  requirements:
+    _permission: 'administer visitor tracking'
+
+entity.visitor_tracker.canonical:
+  path: '/admin/config/people/visitor-trackers/{visitor_tracker}'
+  defaults:
+    _entity_form: 'visitor_tracker_data.edit'
+    _title: 'Edit visitor tracker'
+  requirements:
+    _permission: 'administer visitor tracking'
+
+entity.visitor_tracker.edit_form:
+  path: '/admin/config/people/visitor-trackers/{visitor_tracker}/edit'
+  defaults:
+    _entity_form: 'visitor_tracker.edit'
+    _title: 'Edit visitor tracker'
+  requirements:
+    _permission: 'administer visitor tracking'
+
+entity.visitor_tracker.delete_form:
+  path: '/admin/config/people/visitor-trackers/{visitor_tracker}/delete'
+  defaults:
+    _entity_form: 'visitor_tracker.delete'
+    _title: 'Delete visitor tracker'
+  requirements:
+    _permission: 'administer visitor tracking'
+
+entity.visitor_tracker_data.collection:
+  path: '/admin/config/people/visitor-tracker-data'
+  defaults:
+    _entity_list: 'visitor_tracker_data'
+    _title: 'Visitor tracker data'
+  requirements:
+    _permission: 'administer visitor tracking'
+
+entity.visitor_tracker_data.add_form:
+  path: '/admin/config/people/visitor-tracker-data/add'
+  defaults:
+    _entity_form: 'visitor_tracker_data.add'
+    _title: 'Add visitor tracker data'
+  requirements:
+    _permission: 'administer visitor tracking'
+
+entity.visitor_tracker_data.canonical:
+  path: '/admin/config/people/visitor-tracker-data/{visitor_tracker_data}'
+  defaults:
+    _entity_form: 'visitor_tracker_data.edit'
+    _title: 'Edit visitor tracker data'
+  requirements:
+    _permission: 'administer visitor tracking'
+
+entity.visitor_tracker_data.edit_form:
+  path: '/admin/config/people/visitor-tracker-data/{visitor_tracker_data}/edit'
+  defaults:
+    _entity_form: 'visitor_tracker_data.edit'
+    _title: 'Edit visitor tracker data'
+  requirements:
+    _permission: 'administer visitor tracking'
+
+entity.visitor_tracker_data.delete_form:
+  path: '/admin/config/people/visitor-trackers/{visitor_tracker_data}/delete'
+  defaults:
+    _entity_form: 'visitor_tracker_data.delete'
+    _title: 'Delete visitor tracker data'
+  requirements:
+    _permission: 'administer visitor tracking'

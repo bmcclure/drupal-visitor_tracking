@@ -1,0 +1,13 @@
+visitor_tracking.visitor_tracker.*:
+  type: config_entity
+  label: 'Visitor tracker config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    enabled:
+      type: boolean
+      label: 'Enabled'

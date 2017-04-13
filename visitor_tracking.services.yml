@@ -1,0 +1,4 @@
+services:
+  plugin.manager.visitor_tracker_data:
+    class: Drupal\visitor_tracking\DataPluginManager
+    parent: default_plugin_manager

@@ -1,0 +1,9 @@
+name: Visitor Tracking
+type: module
+description: 'Visitor Tracking collects and injects visitor tracking data into your site.'
+version: 8.x-1.x
+core: 8.x
+package: Visitor tracking
+configure: entity.visitor_tracker.collection
+dependencies:
+  - field
